@@ -1,4 +1,4 @@
-from flask import flash
+from flask import flash, redirect, url_for
 from flask_login import current_user, login_user
 from flask_dance.contrib.github import make_github_blueprint
 from flask_dance.consumer import oauth_authorized, oauth_error
